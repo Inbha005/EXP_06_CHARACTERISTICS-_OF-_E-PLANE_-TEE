@@ -23,7 +23,8 @@ Klystron power supply, klystron mount with tube, isolator, variable attenuator, 
 
 An E–plane tee is a waveguide junction in which the axis of the side arm is parallel to the electric (E) field of the main waveguide, formed by cutting a slot along the narrow wall so the side arm extends in the plane containing the E–field. It behaves as a series junction: when power is fed into the side arm (port 3, the E–arm), it divides equally between the two collinear arms (ports 1 and 2) but the two outputs are 180° out of phase with each other. Conversely, signals fed into the two collinear arms in phase cancel at the E–arm, while signals fed 180° out of phase add at the E–arm. This phase–reversing power split makes the E–plane tee useful in balanced mixers and other circuits requiring a phase difference between the two output signals.
 
-##CIRCUIT / PORT DIAGRAM
+CIRCUIT / PORT DIAGRAM
+
 <img width="765" height="562" alt="image" src="https://github.com/user-attachments/assets/03376dfe-5bf2-4b37-a704-46ae82764dce" />
 
 
