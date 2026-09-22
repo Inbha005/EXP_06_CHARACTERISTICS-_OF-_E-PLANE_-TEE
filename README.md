@@ -6,7 +6,7 @@
 
 ## Aim
 
-To study and measure the characteristics of an H-plane tee.
+To study the characteristics of an E–plane tee (series tee) and to determine the power–division ratio between its collinear arms and the isolation between them.
 
 ## Apparatus Used
 
@@ -26,15 +26,9 @@ The perpendicular arm is generally taken as the input and the other two arms are
 
 Because of the symmetry of the tee, when power enters the auxiliary arm and the two main arms 1 and 2 are terminated in identical loads, the power supplied to each load is **equal and in phase**. Conversely, if two signals of equal amplitude and the same phase are fed into the two main arms, they add together in the side arm. The H-plane tee therefore acts as an **adder**.
 
-### Summary of behaviour
+##CIRCUIT / PORT DIAGRAM
+<img width="765" height="562" alt="image" src="https://github.com/user-attachments/assets/03376dfe-5bf2-4b37-a704-46ae82764dce" />
 
-| Feed point | Result |
-|---|---|
-| Auxiliary (H) arm | Equal split into arms 1 and 2, in phase |
-| Arms 1 and 2 (equal, in phase) | Signals add at the H-arm |
-| Function | Adder, shunt tee |
-
----
 
 ## Procedure
 
@@ -50,10 +44,32 @@ Because of the symmetry of the tee, when power enters the auxiliary arm and the 
 10. Repeat the measurements for each of the three ports.
 
 ---
+##PROCEDURE FLOWCHART
+<img width="1040" height="550" alt="image" src="https://github.com/user-attachments/assets/cfce8c8a-a9d0-4e6d-b65d-4f2a74e0860b" />
+
 
 ## Observation
 
-*(Include your own table relevant to the experiment.)*
+TABULATION
+
+<img width="1086" height="145" alt="image" src="https://github.com/user-attachments/assets/421560ca-5f99-4aec-aef5-e97f696b4575" />
+<img width="1076" height="130" alt="image" src="https://github.com/user-attachments/assets/9472b4a4-1650-4540-a2e3-08b5fb9f2212" />
+
+FORMULA
+
+1. Power division ratio (Port 3 → Port 1, Port 2) = Pin – Pout = 10 log10 (Pin / Pout) dB (ideally ≈ 3 dB at each arm, 180° out of phase)
+2. Isolation between collinear arms = 10 log10 (P1 / P2) dB
+MODEL GRAPH AND ACTUAL GRAPH
+
+<img width="1077" height="402" alt="image" src="https://github.com/user-attachments/assets/1e11f5f4-593c-400e-a8f2-f099bb27fb6a" />
+
+CALCULATION
+
+1. Power at Port 1 (from Port 3) = 0.0 – (–3.5) = 3.5 dB down.
+2. Power at Port 2 (from Port 3) = 0.0 – (–3.4) = 3.4 dB down.
+3. Both arms are within 0.1 dB of each other and close to the ideal 3 dB point, confirming an equal power split; the 180° phase reversal between the two outputs (a property of the series junction) is confirmed separately using a phase–shifter/slotted–line comparison.
+4. Isolation (Port 1 → Port 2, with Port 3 matched) = 0.0 – (–24.0) = 24.0 dB.
+
 
 ---
 
@@ -66,5 +82,4 @@ Because of the symmetry of the tee, when power enters the auxiliary arm and the 
 * Do not look directly into an open waveguide.
 
 ## Result
-
-The characteristics of the H-plane tee were studied.
+The power–division ratio between the collinear arms of the given E–plane tee was found to be 3.5 dB and 3.4 dB (nearly equal), and the isolation between the collinear arms was found to be 24.0 dB. The equal power split with a 180° phase reversal, characteristic of a series (E–plane) junction, was verified.
