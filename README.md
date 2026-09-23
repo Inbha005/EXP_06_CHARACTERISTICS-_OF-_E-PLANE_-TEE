@@ -1,6 +1,6 @@
-# exp_6_characterization_of_e_plane_tee
+# exp_5_characterization_of_e_plane_tee
 
-# Experiment 6 — Characterization of E-Plane Tee
+# Experiment 5 — Characterization of E-Plane Tee
 
 ---
 
